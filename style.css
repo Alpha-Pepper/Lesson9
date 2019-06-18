@@ -1,13 +1,74 @@
+
+
 body{
-    margin: 0;
+    padding: 20px;
     
 }
 .list{
-    border: 1px solid black;
+    border-collapse: collapse;
+    width: 70%;
+    outline: 1px solid black;
+    outline-style: 3px;
+    margin: 0 auto;
+
+    
     
 }
-
-.item2{
+td{
     border: 1px solid black;
 }
 
+th{
+    padding: 7px;
+}
+.item{
+    border: 1px solid black;
+    padding: 10px;
+    vertical-align: top;
+    
+}
+.item1{
+    vertical-align: bottom;
+    text-align: center;
+}
+.item2{
+    width: 13%;
+    text-align: center;
+}
+.item3{
+    vertical-align: top;
+}
+.item4{
+    border-bottom-style: hidden;
+    text-align: right;
+}
+.item5{
+    vertical-align: top;
+    text-align: right;
+    
+}
+.item6.item3{
+    border-right-style: hidden;
+    border-left: 3px solid black;
+}
+.item7{
+    border-bottom-style: hidden;
+}
+.item8{
+    border-bottom: 3px solid black;
+}
+.item9{
+    border-right: 3px solid black;
+}
+.item10{
+    border-top: 3px solid black;
+}
+.item11{
+    border-left: 3px solid black;
+}
+.item12{
+    text-align: center;
+}
+.item13{
+    border-right-style: hidden;
+}
